@@ -19,7 +19,7 @@ function Contenido() {
 
   useEffect(() => {
     document.body.classList.toggle("tema-oscuro", modoOscuro);
-    localStorage.setItem("xbank-tema", modoOscuro ? "oscuro" : "claro");
+    localStorage.setItem("jazzbank-tema", modoOscuro ? "oscuro" : "claro");
   }, [modoOscuro]);
 
   const handleCambiarModo = () => setModoOscuro((actual) => !actual);
