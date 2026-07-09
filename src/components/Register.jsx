@@ -42,7 +42,7 @@ export function Register({ onCambiarALogin }) {
 
   return (
     <div className="auth-card">
-      <h1>XBank</h1>
+      <h1>JazzBank</h1>
       <p className="muted">Crea tu cuenta · saldo inicial $100.000</p>
 
       <form onSubmit={handleRegisterSubmit} className="auth-form">

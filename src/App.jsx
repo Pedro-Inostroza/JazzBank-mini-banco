@@ -29,7 +29,7 @@ function Contenido() {
   if (cargando) {
     return (
       <div className="pantalla-carga">
-        <p>Cargando XBank...</p>
+        <p>Cargando JazzBank...</p>
       </div>
     );
   }

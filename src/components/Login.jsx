@@ -37,7 +37,7 @@ export function Login({ onCambiarARegistro }) {
 
   return (
     <div className="auth-card">
-      <h1>XBank</h1>
+      <h1>JazzBank</h1>
       <p className="muted">Inicia sesión en tu cuenta</p>
 
       <form onSubmit={handleLoginSubmit} className="auth-form">

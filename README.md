@@ -1,4 +1,4 @@
-# XBank — Mini Banco Digital (React + Firebase)
+# JazzBank — Mini Banco Digital (React + Firebase)
 
 Proyecto de evaluación TI3V31 · Programación reactiva y manejo de eventos.
 
@@ -77,8 +77,8 @@ existen de antemano, se generan al registrarte):
 
 | Nombre  | Email                | Contraseña |
 |---------|-----------------------|------------|
-| Usuario 1 | prueba1@xbank.test  | 123456     |
-| Usuario 2 | prueba2@xbank.test  | 123456     |
+| Shorter | shorter@jazzbank.cl  | 123456     |
+| Jaco | jaco@jazzbank.cl  | 123456     |
 
 Ambas parten con saldo de **$100.000**. Inicia sesión con una, transfiere a
 la otra por email, y abre una segunda pestaña con la otra cuenta para ver

@@ -14,7 +14,7 @@ export function Navbar({ perfil, modoOscuro, onCambiarModo }) {
   return (
     <nav className="navbar">
       <div>
-        <strong>XBank</strong>
+        <strong>JazzBank</strong>
         {perfil && <span className="muted"> · Hola, {perfil.nombre}</span>}
       </div>
       <div className="navbar-acciones">
