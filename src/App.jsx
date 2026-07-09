@@ -13,9 +13,9 @@ import "./App.css";
 function Contenido() {
   const { usuario, cargando } = useAuth();
   const [vista, setVista] = useState("login"); // "login" | "registro"
-  const [modoOscuro, setModoOscuro] = useState(
-    () => localStorage.getItem("xbank-tema") === "oscuro"
-  );
+const [modoOscuro, setModoOscuro] = useState(
+  () => localStorage.getItem("jazzbank-tema") === "oscuro"
+);
 
   useEffect(() => {
     document.body.classList.toggle("tema-oscuro", modoOscuro);
